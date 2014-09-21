@@ -39,34 +39,34 @@ public class ItemPopulator {
 			}
 			for (String s : categorySet) {
 				IndexHits<Node> hit = name.get("name", s);
-				Node category = hit.getSingle();
-				itemNode.createRelationshipTo(category,
-						Relationships.BELONGS_TO);
+				for(Node n : hit){
+					itemNode.createRelationshipTo(n,Relationships.BELONGS_TO);
+				}
 
 				if (s.equals(DbInitializer.CategoryNodes.LINGERIE.toString())) {
 					for (DbInitializer.PersonRelationsNodes node : DbInitializer.categoryToPersonRelationship
 							.get(DbInitializer.CategoryNodes.LINGERIE))
 						hit = name.get("name", node.toString());
-					category = hit.getSingle();
-					itemNode.createRelationshipTo(category,
-							Relationships.BELONGS_TO);
+					for(Node n : hit){
+						itemNode.createRelationshipTo(n,Relationships.BELONGS_TO);
+					}
 				}
 				if (s.equals(DbInitializer.CategoryNodes.SUMMER.toString())) {
 					for (DbInitializer.LocationNodes node : DbInitializer.categoryToLocationRelationship
 							.get(DbInitializer.CategoryNodes.SUMMER))
 						hit = name.get("name", node.toString());
-					category = hit.getSingle();
-					itemNode.createRelationshipTo(category,
-							Relationships.BELONGS_TO);
+					for(Node n : hit){
+						itemNode.createRelationshipTo(n,Relationships.BELONGS_TO);
+					}
 				}
 
 				if (s.equals(DbInitializer.CategoryNodes.WINTER.toString())) {
 					for (DbInitializer.LocationNodes node : DbInitializer.categoryToLocationRelationship
 							.get(DbInitializer.CategoryNodes.WINTER))
 						hit = name.get("name", node.toString());
-					category = hit.getSingle();
-					itemNode.createRelationshipTo(category,
-							Relationships.BELONGS_TO);
+					for(Node n : hit){
+						itemNode.createRelationshipTo(n,Relationships.BELONGS_TO);
+					}
 				}
 			}
 			tx.success();
