@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/3.0.5.RELEASE/spring-core-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-asm/3.0.5.RELEASE/spring-asm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-web/3.0.5.RELEASE/spring-web-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/3.0.5.RELEASE/spring-beans-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/3.0.5.RELEASE/spring-context-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/3.0.5.RELEASE/spring-aop-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-expression/3.0.5.RELEASE/spring-expression-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-webmvc/3.0.5.RELEASE/spring-webmvc-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-context-support/3.0.5.RELEASE/spring-context-support-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.2/commons-codec-1.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.0-alpha4/httpclient-4.0-alpha4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.0-beta1/httpcore-4.0-beta1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/concurrentlinkedhashmap-lru-1.3.1.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/geronimo-jta_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/lucene-core-3.6.2.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/neo4j-cypher-2.1.4.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/neo4j-cypher-commons-2.1.4.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/neo4j-cypher-compiler-1.9-2.0.3.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/neo4j-cypher-compiler-2.0-2.0.3.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/neo4j-cypher-compiler-2.1-2.1.4.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/neo4j-graph-algo-2.1.4.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/neo4j-graph-matching-2.1.4.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/neo4j-jmx-2.1.4.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/neo4j-kernel-2.1.4.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/neo4j-lucene-index-2.1.4.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/neo4j-primitive-collections-2.1.4.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/neo4j-shell-2.1.4.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/neo4j-udc-2.1.4.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/opencsv-2.0.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/parboiled-core-1.1.6.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/parboiled-scala_2.10-1.1.6.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/scala-library-2.10.4.jar"/>
+	<classpathentry kind="lib" path="/home/anshulgupta/softwares/neo4j-community-2.1.4/lib/server-api-2.1.4.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
